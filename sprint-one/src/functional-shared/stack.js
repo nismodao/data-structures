@@ -23,7 +23,7 @@ var stackMethods = {};
 //make method for push, pop, size
 
 stackMethods.push = function(value) {
-  this.storage[length] = value;
+  this.storage[this.length] = value;
   this.length++;
 };
 
@@ -32,8 +32,8 @@ stackMethods.pop = function() {
     return undefined;
   } else {
     this.length--;
-    var popped = this.storage[length];
-    delete this.storage[length];
+    var popped = this.storage[this.length];
+    //delete this.storage[length];
     return popped;
   }
 };
