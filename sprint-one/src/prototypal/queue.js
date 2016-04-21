@@ -13,12 +13,6 @@ var Queue = function() {
 
 
 
-//extend
-var extend = function(to, from) {
-  for (var key in from) {
-    to[key] = from[key];
-  }
-};
 
 //creat empty method object
 var queueMethods = {};

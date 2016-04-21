@@ -14,11 +14,7 @@ var Stack = function() {
 };
 
 //make object to store methods
-var extend = function(to, from) {
-  for (var key in from) {
-    to[key] = from[key];
-  }
-};
+
    
 var stackMethods = {};
 
