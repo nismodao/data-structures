@@ -22,9 +22,6 @@ var BinarySearchTree = function (value) {
         node.left = BinarySearchTree(newValue);
     }
 
-    // if (node.left) 
-    console.log(node);
-
   };
 
   node.contains = function (targetValue) {
